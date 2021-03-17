@@ -3,8 +3,15 @@ package com.moofiyTv.minids;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("Welcome to Master Branch");
-        System.out.println("Every Branch is Related to a group of lessons");
+        // مقايضات
+        Person1 person1 = new Person1();
+        person1.name("احمد");
+        // مصاري
+        Person2 person2 = new Person2();
+        person2.name("علي");
+
+        person1.giveRewards("كرسي");
+        person2.giveRewards(5);
+
     }
 }
