@@ -1,12 +1,23 @@
 package com.moofiyTv.minids;
 
-import java.util.List;
-
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("Welcome to Master Branch");
-        System.out.println("Every Branch is Related to a group of lessons");
+        // write your code here
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        System.out.println(linkedList);
+        linkedList.add(1);// head
+        linkedList.add(2);
+        linkedList.add(3);
+        linkedList.add(8);// tail
+
+        System.out.println(linkedList.search(2));
+        System.out.println(linkedList.search(1));
+        System.out.println(linkedList.search(8));
+        System.out.println(linkedList.search(17));
+
+        linkedList.removeHead();
+        linkedList.removeTail();
+
     }
 }
