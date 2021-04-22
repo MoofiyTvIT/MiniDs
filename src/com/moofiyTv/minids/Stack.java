@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Stack<E> implements StackContract<E> {
     int size = 0;
-    E[] array = (E[]) new Object[10];
+    E[] array = (E[]) new Object[1000];
 
     @Override
     public void push(E e) {
