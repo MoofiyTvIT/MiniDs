@@ -1,12 +1,13 @@
 package com.moofiyTv.minids;
 
-import java.util.List;
-
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("Welcome to Master Branch");
-        System.out.println("Every Branch is Related to a group of lessons");
+        Queue<Integer> queue = new Queue<>();
+        queue.enqueue(100);
+        queue.enqueue(2);
+        queue.enqueue(3);
+        queue.dequeue();
+        System.out.println(queue.peek());
     }
 }
